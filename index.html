@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="formLivro">
+            <h5>Cadastrar</h5>
+            <div>
+                <input id="nome" type="text" placeholder="Nome do livro">
+            </div>
+            <div>
+                <input id="categoria" type="text" placeholder="Categoria">
+            </div>
+            <div>
+                <button type="button" id="btnCadastrar">Salvar</button>
+            </div>
+
+        </form>
+        <div class="wrapper-pesquisa">
+            <h5>Pesquisar</h5>
+            <div>
+                <input id="filtroNome" type="search" placeholder="Digite o nome">
+            </div>
+            <div>
+                <input id="filtroCategoria" type="search" placeholder="Digite a categoria">
+            </div>
+            <h5>Resultado</h5>
+            <div class="livros"></div>
+        </div>
+
+    </div>
+    <script src="index.js" async defer></script>
+</body>
+</html>

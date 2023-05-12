@@ -1,0 +1,18 @@
+@import "normalize.css";
+
+button,
+input {
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.livros {
+    padding: 5px 0;
+}
